@@ -1,0 +1,23 @@
+{
+  "name": "inverisfy-livetest",
+  "version": "1.0.0",
+  "description": "Testbench project for latest live version of Inversify (from readme)",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-node src/index.ts"
+  },
+  "author": "James Monger",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jameskmonger/inversify-livetest.git"
+  },
+  "dependencies": {
+    "inversify": "6.0.2",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
